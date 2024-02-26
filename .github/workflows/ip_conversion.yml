@@ -30,6 +30,6 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add output_ips*.txt
+        git add bestproxy.txt bestcf.txt
         git commit -m "Add converted IP files"
         git push
