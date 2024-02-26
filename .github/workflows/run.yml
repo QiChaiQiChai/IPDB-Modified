@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '*/2 * * * *'  # 每隔两小时触发一次
+    - cron: '0 */2 * * *'  # 每隔两小时触发一次
   workflow_dispatch:  
 
 permissions:
