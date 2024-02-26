@@ -13,7 +13,7 @@ def get_ips_from_url(url):
 
 def get_location(ip):
     try:
-        response = requests.get(f"https://ipapi.co/{ip}/json")
+        response = requests.get(f"https://ip-api.com/json/{ip}")
         data = response.json()
         if data['status'] == 'success':
             return data['countryCode']
