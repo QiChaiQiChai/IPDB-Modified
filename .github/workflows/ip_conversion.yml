@@ -1,4 +1,4 @@
-name: IP Conversion
+name: Convert IP Addresses
 
 on:
   push:
@@ -8,29 +8,28 @@ on:
 jobs:
   convert_ips:
     runs-on: ubuntu-latest
+
     steps:
-    - name: Checkout repository
+    - name: Checkout Repository
       uses: actions/checkout@v2
-      
+
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
         python-version: '3.x'
 
     - name: Install dependencies
-      run: pip install geoip2
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
 
-    - name: Run IP conversion script
-      run: python convert_ips.py input.txt output.txt
+    - name: Run Conversion Script
+      run: python convert_ip.py  # 执行Python脚本进行IP地址转换
 
-    - name: Commit changes
+    - name: Commit and Push Changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add output.txt
-        git commit -m "Convert IP addresses"
-      
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        git add output_ips*.txt
+        git commit -m "Add converted IP files"
+        git push
