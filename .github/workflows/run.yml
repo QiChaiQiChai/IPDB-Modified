@@ -30,7 +30,7 @@ jobs:
         pip install requests
 
     - name: Run Conversion Script
-      run: python convert_ip.py  # 执行Python脚本进行IP地址转换
+      run: python main.py  # 执行Python脚本进行IP地址转换
 
     - name: Commit Changes
       run: |
