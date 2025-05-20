@@ -63,7 +63,7 @@
 #Unknown
 		<script>#Unknown
 			var _hmt = _hmt || [];#Unknown
-#US
+#Unknown
 			(function() {#Unknown
 				var hm = document.createElement("script");#Unknown
 				hm.src = "https://hm.baidu.com/hm.js?7dd7ed0a5e25f4e945738da3329b1c6c";#Unknown
@@ -76,7 +76,7 @@
 		<!-- 页面内容 -->#Unknown
 		<h1 style="font-size: 30px;">IPDB API of <span style="text-decoration: underline; cursor: pointer;"#Unknown
 				onclick="window.open('https://github.com/ymyuuu', '_blank')">Mingyu</span></h1>#Unknown
-#US
+#Unknown
 		<details>#Unknown
 			<summary>Please click to view the important tips before use.</summary>#Unknown
 			<h2>Disclaimer:</h2>#Unknown
@@ -101,18 +101,18 @@
 			<p>IPDB不对用户在使用服务过程中产生的第三方费用（如网络费用、通信费用等）负责。</p>#Unknown
 			<p>请勿将IPDB服务用于违法、滥用、攻击等恶意行为，违者IPDB有权中止或终止使用权限。</p>#Unknown
 			<p>用户在使用IPDB服务时，应保持合理谨慎，自行承担风险，对于因使用本服务而导致的一切后果负责。</p>#Unknown
-			<p>如果您对本免责声明有任何疑问，请<a href="/cdn-cgi/l/email-protection#036a6d656c433330333233322d7b7a79">邮件</a>联系。将尽全力为您提供必要的协助和解释。</p>#Unknown
+			<p>如果您对本免责声明有任何疑问，请<a href="/cdn-cgi/l/email-protection#cca5a2aaa38cfcfffcfdfcfde2b4b5b6">邮件</a>联系。将尽全力为您提供必要的协助和解释。</p>#Unknown
 			<p><strong>在使用本服务前务必审慎阅读并理解本免责声明的全部内容，使用本服务将被视为对本免责声明的接受和遵守。</strong></p>#Unknown
 #US
 		</details>#Unknown
 #US
 		<h2>Help Documents:</h2>#Unknown
 		<hr>#Unknown
-#Unknown
-#Unknown
+#US
+#US
 		<p><strong>type：</strong>获取的 IP 地址类型，支持单个或多个类型，用分号分隔。示例：type=cfv4;cfv6;proxy</p>#Unknown
 		<p><strong>country：</strong>是否显示 IP 地区。设置为 true 表示显示。示例：country=true</p>#Unknown
-#Unknown
+#US
 		<p><strong>down：</strong>是否下载获取的内容。设置为 true 表示下载。示例：down=true</p>#Unknown
 		<p>寻找独一无二的<strong>优选域名</strong>？追求一劳永逸的选择？<a href="https://t.me/HeroCore" target="_blank">@HubCore</a></p>#Unknown
 		<p><strong>支持的类型：</strong></p>#Unknown
@@ -123,7 +123,7 @@
 			<li><strong>bestcf：</strong>优选官方 IP 地址列表(Half hour)</li>#Unknown
 			<li><strong>bestproxy：</strong>优选反代 IP 地址列表(Half hour)</li>#Unknown
 		</ul>#Unknown
-#Unknown
+#US
 		<h3>Demo:</h3>#Unknown
 		<ul>#Unknown
 			<li><code><a href="https://{dynamicDomain}/?type=bestproxy&country=true"#Unknown
@@ -143,19 +143,19 @@
 				地址列表和Cloudflare IPv6 地址列表#Unknown
 			</li>#Unknown
 		</ul>#Unknown
-#Unknown
+#US
 		<p style="text-align: center;">#Unknown
 			&copy; 2023-<span id="year"></span> <span>Mingyu</span> |#Unknown
 			<a href="https://github.com/ymyuuu" target="_blank">GitHub</a> |#Unknown
 			<a href="https://t.me/HeroCore" target="_blank">Telegram</a> |#Unknown
 			<a href="https://api.030101.xyz">API</a>#Unknown
 		</p>#Unknown
-#Unknown
+#US
 		<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>#Unknown
 			document.getElementById("year").textContent = new Date().getFullYear();#Unknown
 		</script>#Unknown
-#Unknown
-#Unknown
+#US
+#US
 		<script>#Unknown
 			// 获取包含占位符的元素，并替换内容#Unknown
 			document.body.innerHTML = document.body.innerHTML.replace(/{dynamicDomain}/g, window.location.hostname);#Unknown
