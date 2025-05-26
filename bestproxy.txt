@@ -1,1 +1,164 @@
-143.47.179.237#NL
+<!DOCTYPE html>#Unknown
+<html lang="zh-CN">#Unknown
+	<head>#Unknown
+		<!-- 页面元信息 -->#Unknown
+		<meta charset="UTF-8">#Unknown
+		<meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=1.0, user-scalable=no" />#Unknown
+		<title>IPDB API</title>#Unknown
+		<link rel="icon" type="image/png" href="https://img.icons8.com/pulsar-color/48/ip-address.png">#Unknown
+		<!-- 页面样式 -->#Unknown
+		<style>#Unknown
+			hr {#Unknown
+				border: 0;#Unknown
+				height: 1px;#Unknown
+				background: linear-gradient(to right, transparent, #ccc, transparent);#Unknown
+				margin: 20px 0;#Unknown
+			}#Unknown
+#US
+			summary {#Unknown
+				user-select: none;#Unknown
+				cursor: pointer;#Unknown
+			}#Unknown
+#US
+#US
+			body {#Unknown
+				font-family: Arial, sans-serif;#Unknown
+				background-color: #F5F5F5;#Unknown
+				padding: 0 3%;#Unknown
+				/* 添加左右 padding */#Unknown
+			}#Unknown
+#US
+			a {#Unknown
+				color: #838eb4;#Unknown
+				text-decoration: none;#Unknown
+			}#Unknown
+#US
+			code {#Unknown
+				background-color: #eee;#Unknown
+				padding: 2px 5px;#Unknown
+				border-radius: 3px;#Unknown
+			}#Unknown
+#US
+			p {#Unknown
+				margin-bottom: 15px;#Unknown
+			}#Unknown
+#US
+			li {#Unknown
+				margin-bottom: 5px;#Unknown
+			}#Unknown
+#Unknown
+			@media (prefers-color-scheme: dark) {#Unknown
+				body {#Unknown
+					background-color: #333;#Unknown
+					color: #f0f0f0;#Unknown
+				}#Unknown
+#Unknown
+				code {#Unknown
+					background-color: #444;#Unknown
+					padding: 2px 5px;#Unknown
+					border-radius: 3px;#Unknown
+				}#Unknown
+			}#Unknown
+		</style>#Unknown
+#Unknown
+		<script>#Unknown
+			var _hmt = _hmt || [];#Unknown
+#Unknown
+			(function() {#Unknown
+				var hm = document.createElement("script");#Unknown
+				hm.src = "https://hm.baidu.com/hm.js?7dd7ed0a5e25f4e945738da3329b1c6c";#Unknown
+				var s = document.getElementsByTagName("script")[0];#Unknown
+				s.parentNode.insertBefore(hm, s);#Unknown
+			})();#Unknown
+		</script>#Unknown
+	</head>#Unknown
+	<body>#Unknown
+		<!-- 页面内容 -->#Unknown
+		<h1 style="font-size: 30px;">IPDB API of <span style="text-decoration: underline; cursor: pointer;"#Unknown
+				onclick="window.open('https://github.com/ymyuuu', '_blank')">Mingyu</span></h1>#Unknown
+#Unknown
+		<details>#Unknown
+			<summary>Please click to view the important tips before use.</summary>#Unknown
+			<h2>Disclaimer:</h2>#Unknown
+			<hr>#Unknown
+			<ol>#Unknown
+				<li>IPDB仅面向非大陆地区用户，大陆地区用户在使用时需自行承担因法律法规限制可能带来的风险。</li>#Unknown
+				<li>IPDB的数据源包括但不限于互联网、开放数据库等公开网络资源。</li>#Unknown
+				<li>IPDB致力于确保数据时效性，但不对数据的准确性、完整性或可靠性做出任何承诺。</li>#Unknown
+				<li>用户在使用IPDB提供的信息时应自行判断其适用性，IPDB不对用户的判断负责。</li>#Unknown
+				<li>IPDB数据更新周期因数据源更新频率而有所不同，使用者应了解数据的最新情况。</li>#Unknown
+				<li>IPDB不对因使用其信息导致的直接或间接损失负责，包括业务损失和数据丢失等。</li>#Unknown
+				<li>IPDB不能保证其服务始终可用，可能会进行定期维护、升级或其他必要的操作。</li>#Unknown
+				<li>IPDB不对用户因使用服务而违反法规法律的行为负责，用户应遵守当地法规。</li>#Unknown
+				<li>IPDB不对用户在使用服务时受到的网络攻击、滥用行为负责，用户应保护账户信息。</li>#Unknown
+				<li>IPDB不对用户在其服务器上存储的数据的安全性负责，建议用户定期备份重要数据。</li>#Unknown
+			</ol>#Unknown
+#Unknown
+			<p>免责声明的任何更改将通过本页面发布，用户应定期查看以获取最新信息。</p>#Unknown
+			<p>免责声明的效力范围将覆盖使用IPDB服务的所有用户，包括匿名用户。</p>#Unknown
+			<p>IPDB可能根据业务发展和用户需求调整服务内容，如有重大变更将提前通知用户。</p>#Unknown
+			<p>IPDB不对用户在使用服务过程中因自身原因导致的数据丢失、遗漏或其他损失负责。</p>#Unknown
+			<p>IPDB不对用户在使用服务过程中产生的第三方费用（如网络费用、通信费用等）负责。</p>#Unknown
+			<p>请勿将IPDB服务用于违法、滥用、攻击等恶意行为，违者IPDB有权中止或终止使用权限。</p>#Unknown
+			<p>用户在使用IPDB服务时，应保持合理谨慎，自行承担风险，对于因使用本服务而导致的一切后果负责。</p>#Unknown
+			<p>如果您对本免责声明有任何疑问，请<a href="/cdn-cgi/l/email-protection#cda4a3aba28dfdfefdfcfdfce3b5b4b7">邮件</a>联系。将尽全力为您提供必要的协助和解释。</p>#Unknown
+			<p><strong>在使用本服务前务必审慎阅读并理解本免责声明的全部内容，使用本服务将被视为对本免责声明的接受和遵守。</strong></p>#Unknown
+#Unknown
+		</details>#Unknown
+#Unknown
+		<h2>Help Documents:</h2>#Unknown
+		<hr>#Unknown
+#Unknown
+#Unknown
+		<p><strong>type：</strong>获取的 IP 地址类型，支持单个或多个类型，用分号分隔。示例：type=cfv4;cfv6;proxy</p>#Unknown
+		<p><strong>country：</strong>是否显示 IP 地区。设置为 true 表示显示。示例：country=true</p>#Unknown
+#Unknown
+		<p><strong>down：</strong>是否下载获取的内容。设置为 true 表示下载。示例：down=true</p>#Unknown
+		<p>寻找独一无二的<strong>优选域名</strong>？追求一劳永逸的选择？<a href="https://t.me/HeroCore" target="_blank">@HubCore</a></p>#Unknown
+		<p><strong>支持的类型：</strong></p>#Unknown
+		<ul>#Unknown
+			<li><strong>cfv4：</strong>Cloudflare IPv4 地址列表</li>#Unknown
+			<li><strong>cfv6：</strong>Cloudflare IPv6 地址列表</li>#Unknown
+			<li><strong>proxy：</strong>反代 IP 地址列表(Ten min)</li>#Unknown
+			<li><strong>bestcf：</strong>优选官方 IP 地址列表(Half hour)</li>#Unknown
+			<li><strong>bestproxy：</strong>优选反代 IP 地址列表(Half hour)</li>#Unknown
+		</ul>#Unknown
+#Unknown
+		<h3>Demo:</h3>#Unknown
+		<ul>#Unknown
+			<li><code><a href="https://{dynamicDomain}/?type=bestproxy&country=true"#Unknown
+						target="_blank">{dynamicDomain}/?type=bestproxy&country=true</a></code><br>获取优选反代 IP 地址列表并查看 IP#Unknown
+				地区</li>#Unknown
+			<li><code><a href="https://{dynamicDomain}/?type=cfv4;proxy"#Unknown
+						target="_blank">{dynamicDomain}/?type=cfv4;proxy</a></code><br>获取 Cloudflare IPv4#Unknown
+				地址列表和反代 IP#Unknown
+				地址列表#Unknown
+			</li>#Unknown
+			<li><code><a href="https://{dynamicDomain}/?type=bestproxy&down=true"#Unknown
+						target="_blank">{dynamicDomain}/?type=bestproxy&down=true</a></code><br>下载优选反代 IP 地址列表#Unknown
+			</li>#Unknown
+			<li><code><a href="https://{dynamicDomain}/?type=cfv4;cfv6&down=true"#Unknown
+						target="_blank">{dynamicDomain}/?type=cfv4;cfv6&down=true</a></code><br>下载 Cloudflare#Unknown
+				IPv4#Unknown
+				地址列表和Cloudflare IPv6 地址列表#Unknown
+			</li>#Unknown
+		</ul>#Unknown
+#Unknown
+		<p style="text-align: center;">#Unknown
+			&copy; 2023-<span id="year"></span> <span>Mingyu</span> |#Unknown
+			<a href="https://github.com/ymyuuu" target="_blank">GitHub</a> |#Unknown
+			<a href="https://t.me/HeroCore" target="_blank">Telegram</a> |#Unknown
+			<a href="https://api.030101.xyz">API</a>#Unknown
+		</p>#Unknown
+#Unknown
+		<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>#Unknown
+			document.getElementById("year").textContent = new Date().getFullYear();#Unknown
+		</script>#Unknown
+#Unknown
+#Unknown
+		<script>#Unknown
+			// 获取包含占位符的元素，并替换内容#Unknown
+			document.body.innerHTML = document.body.innerHTML.replace(/{dynamicDomain}/g, window.location.hostname);#Unknown
+		</script>#Unknown
+	</body>#Unknown
+</html>#Unknown
