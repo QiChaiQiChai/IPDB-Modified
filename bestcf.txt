@@ -93,7 +93,7 @@
 				<li>IPDB不对用户在使用服务时受到的网络攻击、滥用行为负责，用户应保护账户信息。</li>#Unknown
 				<li>IPDB不对用户在其服务器上存储的数据的安全性负责，建议用户定期备份重要数据。</li>#Unknown
 			</ol>#Unknown
-#Unknown
+#US
 			<p>免责声明的任何更改将通过本页面发布，用户应定期查看以获取最新信息。</p>#Unknown
 			<p>免责声明的效力范围将覆盖使用IPDB服务的所有用户，包括匿名用户。</p>#Unknown
 			<p>IPDB可能根据业务发展和用户需求调整服务内容，如有重大变更将提前通知用户。</p>#Unknown
@@ -101,14 +101,14 @@
 			<p>IPDB不对用户在使用服务过程中产生的第三方费用（如网络费用、通信费用等）负责。</p>#Unknown
 			<p>请勿将IPDB服务用于违法、滥用、攻击等恶意行为，违者IPDB有权中止或终止使用权限。</p>#Unknown
 			<p>用户在使用IPDB服务时，应保持合理谨慎，自行承担风险，对于因使用本服务而导致的一切后果负责。</p>#Unknown
-			<p>如果您对本免责声明有任何疑问，请<a href="/cdn-cgi/l/email-protection#97fef9f1f8d7a7a4a7a6a7a6b9efeeed">邮件</a>联系。将尽全力为您提供必要的协助和解释。</p>#Unknown
+			<p>如果您对本免责声明有任何疑问，请<a href="/cdn-cgi/l/email-protection#d4bdbab2bb94e4e7e4e5e4e5faacadae">邮件</a>联系。将尽全力为您提供必要的协助和解释。</p>#Unknown
 			<p><strong>在使用本服务前务必审慎阅读并理解本免责声明的全部内容，使用本服务将被视为对本免责声明的接受和遵守。</strong></p>#Unknown
-#Unknown
+#US
 		</details>#Unknown
 #US
 		<h2>Help Documents:</h2>#Unknown
 		<hr>#Unknown
-#Unknown
+#US
 #US
 		<p><strong>type：</strong>获取的 IP 地址类型，支持单个或多个类型，用分号分隔。示例：type=cfv4;cfv6;proxy</p>#Unknown
 		<p><strong>country：</strong>是否显示 IP 地区。设置为 true 表示显示。示例：country=true</p>#Unknown
@@ -150,12 +150,12 @@
 			<a href="https://t.me/HeroCore" target="_blank">Telegram</a> |#Unknown
 			<a href="https://api.030101.xyz">API</a>#Unknown
 		</p>#Unknown
-#Unknown
+#US
 		<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js" defer></script><script>#Unknown
 			document.getElementById("year").textContent = new Date().getFullYear();#Unknown
 		</script>#Unknown
-#Unknown
-#Unknown
+#US
+#US
 		<script>#Unknown
 			// 获取包含占位符的元素，并替换内容#Unknown
 			document.body.innerHTML = document.body.innerHTML.replace(/{dynamicDomain}/g, window.location.hostname);#Unknown
