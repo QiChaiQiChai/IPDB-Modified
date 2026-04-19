@@ -101,15 +101,15 @@
 			<p>IPDB不对用户在使用服务过程中产生的第三方费用（如网络费用、通信费用等）负责。</p>#Unknown
 			<p>请勿将IPDB服务用于违法、滥用、攻击等恶意行为，违者IPDB有权中止或终止使用权限。</p>#Unknown
 			<p>用户在使用IPDB服务时，应保持合理谨慎，自行承担风险，对于因使用本服务而导致的一切后果负责。</p>#Unknown
-			<p>如果您对本免责声明有任何疑问，请<a href="/cdn-cgi/l/email-protection#d4bdbab2bb94e4e7e4e5e4e5faacadae">邮件</a>联系。将尽全力为您提供必要的协助和解释。</p>#Unknown
+			<p>如果您对本免责声明有任何疑问，请<a href="/cdn-cgi/l/email-protection#375e59515877070407060706194f4e4d">邮件</a>联系。将尽全力为您提供必要的协助和解释。</p>#Unknown
 			<p><strong>在使用本服务前务必审慎阅读并理解本免责声明的全部内容，使用本服务将被视为对本免责声明的接受和遵守。</strong></p>#Unknown
 #US
 		</details>#Unknown
 #US
 		<h2>Help Documents:</h2>#Unknown
 		<hr>#Unknown
-#US
-#US
+#Unknown
+#Unknown
 		<p><strong>type：</strong>获取的 IP 地址类型，支持单个或多个类型，用分号分隔。示例：type=cfv4;cfv6;proxy</p>#Unknown
 		<p><strong>country：</strong>是否显示 IP 地区。设置为 true 表示显示。示例：country=true</p>#Unknown
 #Unknown
@@ -150,12 +150,12 @@
 			<a href="https://t.me/HeroCore" target="_blank">Telegram</a> |#Unknown
 			<a href="https://api.030101.xyz">API</a>#Unknown
 		</p>#Unknown
-#US
+#Unknown
 		<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js" defer></script><script>#Unknown
 			document.getElementById("year").textContent = new Date().getFullYear();#Unknown
 		</script>#Unknown
-#US
-#US
+#Unknown
+#Unknown
 		<script>#Unknown
 			// 获取包含占位符的元素，并替换内容#Unknown
 			document.body.innerHTML = document.body.innerHTML.replace(/{dynamicDomain}/g, window.location.hostname);#Unknown
