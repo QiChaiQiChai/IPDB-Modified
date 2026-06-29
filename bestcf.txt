@@ -46,7 +46,7 @@
 			li {#Unknown
 				margin-bottom: 5px;#Unknown
 			}#Unknown
-#US
+#Unknown
 			@media (prefers-color-scheme: dark) {#Unknown
 				body {#Unknown
 					background-color: #333;#Unknown
@@ -101,7 +101,7 @@
 			<p>IPDB不对用户在使用服务过程中产生的第三方费用（如网络费用、通信费用等）负责。</p>#Unknown
 			<p>请勿将IPDB服务用于违法、滥用、攻击等恶意行为，违者IPDB有权中止或终止使用权限。</p>#Unknown
 			<p>用户在使用IPDB服务时，应保持合理谨慎，自行承担风险，对于因使用本服务而导致的一切后果负责。</p>#Unknown
-			<p>如果您对本免责声明有任何疑问，请<a href="/cdn-cgi/l/email-protection#98f1f6fef7d8a8aba8a9a8a9b6e0e1e2">邮件</a>联系。将尽全力为您提供必要的协助和解释。</p>#Unknown
+			<p>如果您对本免责声明有任何疑问，请<a href="/cdn-cgi/l/email-protection#0a63646c654a3a393a3b3a3b24727370">邮件</a>联系。将尽全力为您提供必要的协助和解释。</p>#Unknown
 			<p><strong>在使用本服务前务必审慎阅读并理解本免责声明的全部内容，使用本服务将被视为对本免责声明的接受和遵守。</strong></p>#Unknown
 #US
 		</details>#Unknown
@@ -143,7 +143,7 @@
 				地址列表和Cloudflare IPv6 地址列表#Unknown
 			</li>#Unknown
 		</ul>#Unknown
-#US
+#Unknown
 		<p style="text-align: center;">#Unknown
 			&copy; 2023-<span id="year"></span> <span>Mingyu</span> |#Unknown
 			<a href="https://github.com/ymyuuu" target="_blank">GitHub</a> |#Unknown
@@ -154,8 +154,8 @@
 		<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>#Unknown
 			document.getElementById("year").textContent = new Date().getFullYear();#Unknown
 		</script>#Unknown
-#US
-#US
+#Unknown
+#Unknown
 		<script>#Unknown
 			// 获取包含占位符的元素，并替换内容#Unknown
 			document.body.innerHTML = document.body.innerHTML.replace(/{dynamicDomain}/g, window.location.hostname);#Unknown
